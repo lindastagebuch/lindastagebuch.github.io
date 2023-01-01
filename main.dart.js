@@ -84689,7 +84689,7 @@ A.Nl.prototype={
 E(a){var s=A.E(a),r=A.E(a).RG.e
 r=r==null?null:r.r
 if(r==null)r=24
-return A.aE3("assets/img/lola.jpg",B.oM,"Ich will zur\xfcck zur App!",A.cX(A.aDx("Hey Linda, hier ist nochmal Lola... Ich wollte dir nur kurz sagen, dass es den Entwickler dieser App traurig macht auf dich verzichten zu m\xfcssen, ihm geht es furchtbar ohne dich. Er glaubt er hat einfach alles falsch gemacht, deswegen macht er jetzt wenigstens eine Sache richtig, diese App. Ich glaube er w\xfcnscht sich nichts mehr als es weiter zu Versuchen... schlie\xdflich gibt er nie auf. Auch durch die H\xf6hen und Tiefen der Entwicklung dieser App hat er sich nicht von seinem Ziel abbringen lassen und ist immer da geblieben so wie er es versprochen hat. Er liebt dich wirklich, Linda. Er wei\xdf nur nich immer direkt wie alles funktioniert und wie er das am besten zeigt... er ist ein Vollidiot und du fehlst ihm! \ud83c\udf3d",r,A.E(a).RG.z),null,null),s.ay.f,new A.aa9(a))}}
+return A.aE3("assets/img/lola.JPG",B.oM,"Ich will zur\xfcck zur App!",A.cX(A.aDx("Hey Linda, hier ist nochmal Lola... Ich wollte dir nur kurz sagen, dass es den Entwickler dieser App traurig macht auf dich verzichten zu m\xfcssen, ihm geht es furchtbar ohne dich. Er glaubt er hat einfach alles falsch gemacht, deswegen macht er jetzt wenigstens eine Sache richtig, diese App. Ich glaube er w\xfcnscht sich nichts mehr als es weiter zu Versuchen... schlie\xdflich gibt er nie auf. Auch durch die H\xf6hen und Tiefen der Entwicklung dieser App hat er sich nicht von seinem Ziel abbringen lassen und ist immer da geblieben so wie er es versprochen hat. Er liebt dich wirklich, Linda. Er wei\xdf nur nich immer direkt wie alles funktioniert und wie er das am besten zeigt... er ist ein Vollidiot und du fehlst ihm! \ud83c\udf3d",r,A.E(a).RG.z),null,null),s.ay.f,new A.aa9(a))}}
 A.aa9.prototype={
 $0(){var s=t.X
 A.cl(this.a,!1).qz("/welcome",s,s)},
@@ -84906,7 +84906,7 @@ s=A.dm(A.a([n,A.aH("Linda \ud83c\udf4d",p,p,p,p,p,p,p,s,p,p,p),A.aH("!",p,p,p,p,
 n=A.E(a).RG.e
 n=n==null?p:n.r
 if(n==null)n=24
-return A.aE3("assets/img/lola2.jpg",B.oM,"Los Geht's!",A.c3(A.a([s,B.b_,A.aDx("Ich bin Lola, Ich bewache dein neues Tagebuch. Es wurde speziell f\xfcr jemand ganz besonderen entwickelt, dich! Der Entwickler ist n\xe4mlich der Meinung du hast was perfektes verdient. Meine Aufgabe ist es deine Gedanken, Erinnerungen und Listen sicher in deinem Tagebuch aufzubewahren! Ich habe gesehen es enth\xe4lt auch einige Easter Eggs, also viel Spa\xdf beim Erkunden. Solltest du nicht Linda sein helfe Ich dir nat\xfcrlich trotzdem gerne und du erf\xe4hrst ein paar Dinge \xfcber den Entwickler!",n,A.E(a).RG.z)],r),B.aI,B.aF,B.x),o,new A.anG(a))}}
+return A.aE3("assets/img/lola2.JPG",B.oM,"Los Geht's!",A.c3(A.a([s,B.b_,A.aDx("Ich bin Lola, Ich bewache dein neues Tagebuch. Es wurde speziell f\xfcr jemand ganz besonderen entwickelt, dich! Der Entwickler ist n\xe4mlich der Meinung du hast was perfektes verdient. Meine Aufgabe ist es deine Gedanken, Erinnerungen und Listen sicher in deinem Tagebuch aufzubewahren! Ich habe gesehen es enth\xe4lt auch einige Easter Eggs, also viel Spa\xdf beim Erkunden. Solltest du nicht Linda sein helfe Ich dir nat\xfcrlich trotzdem gerne und du erf\xe4hrst ein paar Dinge \xfcber den Entwickler!",n,A.E(a).RG.z)],r),B.aI,B.aF,B.x),o,new A.anG(a))}}
 A.anG.prototype={
 $0(){var s=t.X
 A.cl(this.a,!1).qz("/auth",s,s)},
