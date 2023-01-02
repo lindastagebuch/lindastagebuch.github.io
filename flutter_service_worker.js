@@ -4,9 +4,10 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "1f57bef2819889d5e3d2bb41b9a2fa14",
-"index.html": "2a085b3c8aecba9cb3910a026506fc5f",
-"/": "2a085b3c8aecba9cb3910a026506fc5f",
+"index.html": "8e87a2a03cb04879abb96d7ffb3564c6",
+"/": "8e87a2a03cb04879abb96d7ffb3564c6",
 "main.dart.js": "66169f3ff8ef50e77cc93a95f2a203be",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "favicon.png": "be4437fa191a4c0e15ac3222507a2ac7",
 "icons/Icon-192.png": "be4437fa191a4c0e15ac3222507a2ac7",
 "icons/Icon-maskable-192.png": "be4437fa191a4c0e15ac3222507a2ac7",
@@ -20,7 +21,11 @@ const RESOURCES = {
 "assets/shaders/ink_sparkle.frag": "c4b1134fb1c941f3c84196542cbb60e8",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/img/diary.png": "c5c1043a027329fa7c9ddf4d737ed484",
-"assets/assets/img/lola2.JPG": "c5e17336d7eb09a836ba4f0a87c3d145"
+"assets/assets/img/lola2.JPG": "c5e17336d7eb09a836ba4f0a87c3d145",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
 };
 
 // The application shell files that are downloaded before a service worker can
