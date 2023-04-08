@@ -27310,80 +27310,80 @@ this.c=c},
 Sh:function Sh(a){this.a=a},
 S6:function S6(a){this.a=a},
 ajt:function ajt(a){this.a=a},
-bdG(a,b){var s,r,q,p=null,o="/",n="not-found",m="/edit-diary-entry",l="/edit-note",k="/edit-comparison",j="/edit-todo",i=$.aW,h=(i==null?$.aW=$.ch():i).cP(0,"[DEFAULT]")
-A.bu(h,$.dA(),!0)
-i=A.dD(new A.bP(h))
-if(i.gcw(i)==null){i=a.a
-if(i==="/birthday")return A.ig(B.BR,new A.dG("/birthday",a.b))
-if(i==="/auth")return A.ig(B.BI,new A.dG("/auth",a.b))
-return A.ig(B.YO,new A.dG("/welcome",a.b))}i=a.a
-if(i!=="/auth")i=i==="/welcome"
-else i=!0
-if(i)a=new A.dG(o,a.b)
-i=a.a
-i=i==null?p:B.b.bh(i,"/view-diary-entry")
-if(i===!0){i=a.a
-s=i==null?p:A.a(i.split(o),t.s)
-r=s==null?p:B.c.gV(s)
-if(r==null)r=n
-i=a.b
-return A.ig(new A.PJ(r,p),new A.dG("/view-diary-entry/"+r,i))}i=a.a
-i=i==null?p:B.b.bh(i,"/view-note")
-if(i===!0){i=a.a
-s=i==null?p:A.a(i.split(o),t.s)
-r=s==null?p:B.c.gV(s)
-if(r==null)r=n
-i=a.b
-return A.ig(new A.T4(r,p),new A.dG("/view-note/"+r,i))}i=a.a
-i=i==null?p:B.b.bh(i,"/view-comparison")
-if(i===!0){i=a.a
-s=i==null?p:A.a(i.split(o),t.s)
-r=s==null?p:B.c.gV(s)
-if(r==null)r=n
-i=a.b
-return A.ig(new A.OW(r,p),new A.dG("/view-comparison/"+r,i))}i=a.a
-i=i==null?p:B.b.bh(i,"/view-todo")
-if(i===!0){i=a.a
-s=i==null?p:A.a(i.split(o),t.s)
-r=s==null?p:B.c.gV(s)
-if(r==null)r=n
-i=a.b
-return A.ig(new A.WZ(r,p),new A.dG("/view-todo/"+r,i))}i=a.a
-i=i==null?p:B.b.bh(i,m)
-if(i===!0){i=a.a
-s=i==null?p:A.a(i.split(o),t.s)
-r=s==null?"":B.c.gV(s)
-if(r.length===0||r===B.b.bW(m,1))r=B.e3.yE()
-i=A.b2Y(r)
-q=a.b
-return A.ig(i,new A.dG("/edit-diary-entry/"+r,q))}i=a.a
-i=i==null?p:B.b.bh(i,l)
-if(i===!0){i=a.a
-s=i==null?p:A.a(i.split(o),t.s)
-r=s==null?"":B.c.gV(s)
-if(r.length===0||r===B.b.bW(l,1))r=B.e3.yE()
-i=A.b2Z(r)
-q=a.b
-return A.ig(i,new A.dG("/edit-note/"+r,q))}i=a.a
-i=i==null?p:B.b.bh(i,k)
-if(i===!0){i=a.a
-s=i==null?p:A.a(i.split(o),t.s)
-r=s==null?"":B.c.gV(s)
-if(r.length===0||r===B.b.bW(k,1))r=B.e3.yE()
-i=A.b2X(r)
-q=a.b
-return A.ig(i,new A.dG("/edit-comparison/"+r,q))}i=a.a
-i=i==null?p:B.b.bh(i,j)
-if(i===!0){i=a.a
-s=i==null?p:A.a(i.split(o),t.s)
-r=s==null?"":B.c.gV(s)
-if(r.length===0||r===B.b.bW(j,1))r=B.e3.yE()
-i=A.b3_(r)
-q=a.b
-return A.ig(i,new A.dG("/edit-todo/"+r,q))}switch(a.a){case"/":return A.ig(B.Px,a)
+bdG(a,b){var s,r,q,p,o=null,n="/",m="not-found",l="/edit-diary-entry",k="/edit-note",j="/edit-comparison",i="/edit-todo",h=a.a
+if(h==="/birthday")return A.ig(B.BR,new A.dG("/birthday",a.b))
+s=$.aW
+r=(s==null?$.aW=$.ch():s).cP(0,"[DEFAULT]")
+A.bu(r,$.dA(),!0)
+s=A.dD(new A.bP(r))
+if(s.gcw(s)==null){if(h==="/auth")return A.ig(B.BI,new A.dG("/auth",a.b))
+return A.ig(B.YO,new A.dG("/welcome",a.b))}if(h!=="/auth")h=h==="/welcome"
+else h=!0
+if(h)a=new A.dG(n,a.b)
+h=a.a
+h=h==null?o:B.b.bh(h,"/view-diary-entry")
+if(h===!0){h=a.a
+q=h==null?o:A.a(h.split(n),t.s)
+p=q==null?o:B.c.gV(q)
+if(p==null)p=m
+h=a.b
+return A.ig(new A.PJ(p,o),new A.dG("/view-diary-entry/"+p,h))}h=a.a
+h=h==null?o:B.b.bh(h,"/view-note")
+if(h===!0){h=a.a
+q=h==null?o:A.a(h.split(n),t.s)
+p=q==null?o:B.c.gV(q)
+if(p==null)p=m
+h=a.b
+return A.ig(new A.T4(p,o),new A.dG("/view-note/"+p,h))}h=a.a
+h=h==null?o:B.b.bh(h,"/view-comparison")
+if(h===!0){h=a.a
+q=h==null?o:A.a(h.split(n),t.s)
+p=q==null?o:B.c.gV(q)
+if(p==null)p=m
+h=a.b
+return A.ig(new A.OW(p,o),new A.dG("/view-comparison/"+p,h))}h=a.a
+h=h==null?o:B.b.bh(h,"/view-todo")
+if(h===!0){h=a.a
+q=h==null?o:A.a(h.split(n),t.s)
+p=q==null?o:B.c.gV(q)
+if(p==null)p=m
+h=a.b
+return A.ig(new A.WZ(p,o),new A.dG("/view-todo/"+p,h))}h=a.a
+h=h==null?o:B.b.bh(h,l)
+if(h===!0){h=a.a
+q=h==null?o:A.a(h.split(n),t.s)
+p=q==null?"":B.c.gV(q)
+if(p.length===0||p===B.b.bW(l,1))p=B.e3.yE()
+h=A.b2Y(p)
+s=a.b
+return A.ig(h,new A.dG("/edit-diary-entry/"+p,s))}h=a.a
+h=h==null?o:B.b.bh(h,k)
+if(h===!0){h=a.a
+q=h==null?o:A.a(h.split(n),t.s)
+p=q==null?"":B.c.gV(q)
+if(p.length===0||p===B.b.bW(k,1))p=B.e3.yE()
+h=A.b2Z(p)
+s=a.b
+return A.ig(h,new A.dG("/edit-note/"+p,s))}h=a.a
+h=h==null?o:B.b.bh(h,j)
+if(h===!0){h=a.a
+q=h==null?o:A.a(h.split(n),t.s)
+p=q==null?"":B.c.gV(q)
+if(p.length===0||p===B.b.bW(j,1))p=B.e3.yE()
+h=A.b2X(p)
+s=a.b
+return A.ig(h,new A.dG("/edit-comparison/"+p,s))}h=a.a
+h=h==null?o:B.b.bh(h,i)
+if(h===!0){h=a.a
+q=h==null?o:A.a(h.split(n),t.s)
+p=q==null?"":B.c.gV(q)
+if(p.length===0||p===B.b.bW(i,1))p=B.e3.yE()
+h=A.b3_(p)
+s=a.b
+return A.ig(h,new A.dG("/edit-todo/"+p,s))}switch(a.a){case"/":return A.ig(B.Px,a)
 case"/settings":return A.ig(B.QZ,a)
 case"/letter":return A.ig(B.Jz,a)
-case"/love-of-my-life":return A.ig(B.NE,a)}return p},
+case"/love-of-my-life":return A.ig(B.NE,a)}return o},
 ig(a,b){return A.Et(new A.aHe(a),b,t.z)},
 aHe:function aHe(a){this.a=a},
 Nn:function Nn(a){this.a=a},
